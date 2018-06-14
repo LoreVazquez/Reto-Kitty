@@ -1,0 +1,48 @@
+
+@media all and (max-width:1500px){
+    
+    .medium, .small{
+        display: none;
+    }
+
+    .large{
+        display: block;
+    }
+   
+}
+
+@media all and (max-width:900px){
+    
+    .large, .small{
+        display: none;
+    }
+
+    .medium{
+        display: block;
+    }
+
+    
+}
+
+@media all and (max-width:550px){
+    
+    .large, .medium{
+        display: none;
+    }
+
+    .small{
+        display: block;
+    }
+}
+
+.landscape{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.cat{
+    margin: 38% 0 0 30%;
+    position: absolute;
+    width: 30%;
+    z-index: 2;
+}
